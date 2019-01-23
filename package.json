@@ -1,0 +1,24 @@
+{
+  "name": "swordsandsockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAGI-KORP/SwordsAndSockets.git"
+  },
+  "author": "MAGI KORP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MAGI-KORP/SwordsAndSockets/issues"
+  },
+  "homepage": "https://github.com/MAGI-KORP/SwordsAndSockets#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
