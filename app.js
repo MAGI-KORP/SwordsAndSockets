@@ -57,7 +57,7 @@ function endGame(winner, loser){
   players.push(loser.firstName)
   playerObjs.push(loser)
 
-  log.push(winner + " defeated " + loser + " in the arena!")
+  log.push(winner.firstName + " defeated " + loser.firstName + " in the arena!")
   sendLog()
   setTimeout(newGame,5000)
 }
